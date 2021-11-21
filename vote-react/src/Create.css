@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid;
+  margin: 10px;
+  text-align: center;
+}
+.card-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+}

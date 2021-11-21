@@ -1,0 +1,10 @@
+
+<script>
+  async function main() {
+    for (;;) {
+      let data = await fetch('/boardcast').then(it => it.text())
+      console.log(data)
+    }
+  }
+  main()
+</script>
